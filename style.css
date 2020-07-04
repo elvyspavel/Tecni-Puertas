@@ -53,7 +53,7 @@ header .container nav a{
 
 .boton.boton-rojo{
 	background-color: #fff;
-	color:#f40009;
+	color: #f40009;
 }
 
 .container{
@@ -129,6 +129,8 @@ header .container nav a{
 	color:#fff;
 	font-size: 18px;
 	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	
 }
 
