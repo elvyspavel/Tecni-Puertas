@@ -5,7 +5,7 @@
 body{
 	font-family: 'Lato';
 	font-size: 14px;
-	font-weight: 400px;
+	font-weight: 400;
 	color: #1E1E1E;
 }
 
@@ -17,6 +17,13 @@ a{
 header{
 	padding-top: 15px;
 	padding-bottom: 15px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #fff;
+	transition: all .4s ease-in;
 	
 }
 
@@ -186,7 +193,7 @@ header .container nav a{
 	opacity: 0.5;
 	left: 0;
 	top: 0;
-	transition: all .3s ease-in;
+	transition: all 0.3s ease-in;
 }
 
 #galeria .cuadrado-perfecto h3{
@@ -243,7 +250,7 @@ footer ul.redes li a{
 
 footer .pie{
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #000;
@@ -254,6 +261,7 @@ footer .pie{
 }
 
 @media(min-width: 768px) and (max-width: 991px){
+
 
 }
 
@@ -283,9 +291,9 @@ footer .pie{
 		font-size: 40px;
 		z-index: 3;
 	}
-	header .container .hambur.open i::before{
+	/*header .container .hambur.open i::before{
 		content: "\f00d";
-	}
+	}*/
 	
 	header .container nav{
 		position: fixed;
@@ -301,7 +309,7 @@ footer .pie{
 		text-align: center;
 		padding: 80px 15px;
 		transform: translateX(100%);
-		transform: all 3s ease-in-out;
+		transform: all 5s ease-in-out;
 	}
 	header .container nav.open{
 		transform: translateX(0%);
