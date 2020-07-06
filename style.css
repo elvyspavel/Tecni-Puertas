@@ -129,7 +129,7 @@ header .container nav a{
 	font-size: 50px;
 	margin-top: 0;
 	margin-bottom: 15px;
-	height: 100px;
+	height: 80px;
 	
 }
 #inicio .bloque-banner p{
@@ -227,17 +227,26 @@ header .container nav a{
 	position: absolute;
 	left: 0;
 }
-
+.redes, h3{
+	position: relative;
+	bottom: 40px;
+}
+.redes h3, li{
+	position: relative;
+	bottom: 7px;
+}
 footer.seccion{
 	background-color: #1E1E1E;
 	color: #fff;
 	padding-bottom: 0;
+	height: 190px;
 
 }
 
 footer ul{
 	list-style: none;
 	padding-left: 0;
+	margin-bottom: 20px;
 
 }
 
@@ -319,7 +328,7 @@ footer .pie{
 		text-align: center;
 		padding: 80px 15px;
 		transform: translateX(100%);
-		transform: all 5s ease-in-out;
+		transform: all 5s ease-in;
 	}
 	header .container nav.open{
 		transform: translateX(0%);
@@ -336,7 +345,7 @@ footer .pie{
 		width: 100%;
 		padding-left: 15px;
 		padding-right: 15px;
-		margin-left: -50%;
+		margin-left: -20%;
 		top: 16%;
 	}
 	#inicio .bloque-banner h1{
