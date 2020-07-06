@@ -90,7 +90,8 @@ header .container nav a{
 }
 
 .columna-25{
-	width: 25%;
+	width: 100%;
+
 }
 
 .seccion{
@@ -119,17 +120,20 @@ header .container nav a{
 #inicio .bloque-banner{
 	position: absolute;
 	top: 40%;
-	left: 50%;
-	width: 33.33%;
+	left: 20%;
 	text-align: center;
-	margin-left: -16.66%;
 	color: #fff;
 }
 
 #inicio .bloque-banner h1{
-	font-size: 45px;
+	font-size: 50px;
 	margin-top: 0;
 	margin-bottom: 15px;
+	height: 100px;
+	
+}
+#inicio .bloque-banner p{
+	font-size: 20px;
 }
 
 #nosotros{
@@ -161,11 +165,14 @@ header .container nav a{
 }
 
 #servicios .bloque-servicio .bloque-contenido-servicio{
-	padding: 15px 15px 15px 15px; 
+	text-align: justify;
+	padding: 15px 15px 15px 15px;
+	height: 150px; 
 }
 
 #servicios .bloque-servicio .bloque-contenido-servicio h2{
 	margin-top: 0; 
+	text-align: justify;
 }
 
 #galeria{
@@ -228,11 +235,6 @@ footer.seccion{
 
 }
 
-footer .logo-blanco{
-	width: 100%;
-	height: auto;
-}
-
 footer ul{
 	list-style: none;
 	padding-left: 0;
@@ -242,16 +244,23 @@ footer ul{
 footer ul li a{
 	color: #fff;
 }
+footer ul li a i:hover{
+	color: #000;
+}
+.redes{
+	display: flex;
+}
 
 footer ul.redes li a{
 	color: #fff;
-	margin-bottom: 15px;
-	display: inline-block;
+	margin: 10px 20px;
+	display: flex;
+	font-size: 50px;
 }
 
 footer .pie{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #000;
